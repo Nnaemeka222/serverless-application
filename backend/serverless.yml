@@ -16,7 +16,11 @@ provider:
  # lambdaHashingVersion: '20201221'
   stage: ${opt:stage, 'dev'}
   region: ${opt:region, 'us-east-2'}
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 56e464affdba1d2524f8c1f4a3fcb8107e7e30ae
 #  X-Ray Tracing
   tracing:
     lambda: true
