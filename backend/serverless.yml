@@ -16,7 +16,8 @@ provider:
  # lambdaHashingVersion: '20201221'
   stage: ${opt:stage, 'dev'}
   region: ${opt:region, 'us-east-2'}
-
+  
+#  X-Ray Tracing
   tracing:
     lambda: true
     apiGateway: true
